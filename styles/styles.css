@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #000;
+}
+header {
+  height: 100px;
+}
+nav {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+nav img {
+  width: 100px;
+}
+main {
+  height: 100%;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(35vh - 90px);
+  text-align: center;
+}
+.title img {
+  /* text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px; */
+  width: 50%;
+  height: 115%;
+}
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 18px;
+  padding: 10px;
+  color: whitesmoke;
+  margin-top: 30px;
+  background: rgb(32, 35, 41);
+}
+article {
+  /* padding: 10px; */
+  box-shadow: 2px 0px 10px #000;
+  background-color: rgb(60, 62, 68);
+  width: 400px;
+  height: 180px;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.image-container {
+  display: flex;
+  width: 190px;
+  height: 177px;
+  
+}
+.image-container img {
+  /* Ocupara 100S% de su contenedor */
+  width: 100%;
+}
+.info-personaje {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(60, 62, 68);
+}
