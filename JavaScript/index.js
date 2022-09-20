@@ -22,14 +22,14 @@ function mostrarPersonajes(personajes){
         </div>
         <div class="info-personaje">
           <h2>${personajes[i].name}</h2>
-          <li><span>${personajes[i].status}</span></li>
+          <li>${personajes[i].status}</li>
           <span>${personajes[i].species}</span>
           <span>${personajes[i].origin.name}</span>
         </div>
       </article>
     `//${personaje[i].image} => personajes en la posicion i(actual) traer imagen
   }
-  //Adicionar tarjetas al section
+  //Adicionar tarjetas al section por medio del id
   document.getElementById('section-cards').innerHTML = cards
 }
 
