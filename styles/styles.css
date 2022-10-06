@@ -47,6 +47,7 @@ section {
   padding: 10px;
   color: whitesmoke;
   margin-top: 30px;
+  justify-items: center;
 }
 article {
   box-shadow: 2px 0px 10px #00ff31;
@@ -64,7 +65,7 @@ article {
   
 }
 .image-container img {
-  /* Ocupara 100S% de su contenedor */
+  /* Ocupara 100% de su contenedor */
   width: 100%;
 }
 .info-personaje {
